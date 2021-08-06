@@ -14,4 +14,7 @@ class QueryInputForm(FlaskForm):
                                         ('mole_concentration_of_dissolved_molecular_oxygen_in_sea_water', 'Dissolved Oxygen'),
                                         ('mass_concentration_of_chlorophyll_a_in_sea_water', 'Chlorophyll a'),
                                         ('sea_water_density', 'Density'),
-                                        ('sea_water_pressure', 'Water Pressure')])
+                                        ('sea_water_pressure', 'Water Pressure'),
+                                        ('sea_water_pressure_at_sea_floor', 'Water Pressure at Sea Floor'),
+                                        ('chlorophyll', 'Satellite Chlorophyll'), 
+                                        ('SST', 'Satellite SST')])
